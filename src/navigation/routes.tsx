@@ -11,4 +11,5 @@ export interface RouteType {
 
 export const routes: RouteType[] = [
   { path: '/', Component: IndexPage },
+  { path: '/manage', Component: IndexPage },
 ];
